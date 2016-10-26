@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "node_modules/": true
+         ,"android/":true
+        ,"ios/":true
+        ,".vscode/":true
+        //,".*":true
+        //,"package.json":true
+        ,"tsconfig.json":true
+    },
+
+
+    "javascript.validate.enable": false //other wise the flow plugin doesn't work
+}
