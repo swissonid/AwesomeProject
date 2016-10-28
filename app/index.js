@@ -5,16 +5,11 @@
  */
 
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
 import StartView from './components/StartView'
 export default class AwesomeProject extends Component {
   render() {
     return (
-      <StartView helloText="hallo" secondText="hd"/>
+        <StartView helloText="hallo" secondText="hd"/>
     );
   }
 }

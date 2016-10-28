@@ -5,6 +5,14 @@ type blu = {
     ho: ?string
 }
 function bla(test: blu){
-
+    
 }
+
+let bi = {
+    hi: "hal"
+}
+
+bla()
+
+
 

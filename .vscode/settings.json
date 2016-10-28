@@ -4,8 +4,8 @@
          ,"android/":true
         ,"ios/":true
         ,".vscode/":true
-        //,".*":true
-        //,"package.json":true
+        ,".*":true
+        ,"package.json":true
         ,"tsconfig.json":true
     },
 
