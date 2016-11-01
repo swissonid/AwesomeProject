@@ -5,6 +5,7 @@ import { storiesOf, action, linkTo } from '@kadira/react-native-storybook';
 import Button from './Button';
 import CenterView from './CenterView';
 import Welcome from './Welcome';
+import EmptyListItem from '../../app/components/EmptyListItem';
 
 storiesOf('Welcome', module)
   .add('to Storybook', () => (
@@ -25,3 +26,10 @@ storiesOf('Button', module)
       <Text>😀 😎 👍 💯</Text>
     </Button>
   ));
+
+storiesOf('EmptyListItem',module)
+    .add('EmptyListItem',() =>(
+        <CenterView>
+            <EmptyListItem color="#000" />
+        </CenterView>
+    ));
